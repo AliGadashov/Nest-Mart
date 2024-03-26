@@ -1,0 +1,49 @@
+
+:root{
+    --color-white:#ffffff;
+    --color-black:#000000;
+    --border-color: #253D4E25;
+    --light-text-color: #253D4Ea3;
+    --light-placeholder-color: #253D4E42;
+    --dark-text-color: #253D4E;
+    --light-main-green: #bce3c0;
+    --main-green: #3bb77e;
+    --main-light-green: #bce3c9;
+    --light-green:#cbe4d3;
+    --main-dark-green: #29A56C;
+    --golden-yellow:#fcb900;
+    --slider-red:#cc2255;
+    --light-gray:#F4F6FA;
+    --blue-gray:#253D4E;
+}
+.d-flex{
+    display: flex;
+}
+.a-item{
+    align-items: center;
+}
+.a-item-start{
+    align-items: start;
+}
+.j-cont{
+    justify-content: center;
+}
+.j-cont-bet{
+    justify-content: space-between;
+}
+.j-cont-aroun{
+    justify-content: space-around;
+}
+.flex-d-row{
+    flex-direction: row;
+}
+.flex-d-col{
+    flex-direction: column;
+}
+.gap{
+    gap: 1em;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1600px;
+}

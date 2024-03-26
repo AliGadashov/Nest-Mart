@@ -1,0 +1,179 @@
+.bottom-footer{
+    border-top:1px solid var(--border-color);
+    padding: 40px 15px;
+}
+
+.bottom-footer .container img{
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+}
+
+.bottom-footer .container p,
+.bottom-footer .container span {
+    color: var(--light-text-color);
+}
+
+.bottom-footer .container .working,
+.bottom-footer .container .support{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.bottom-footer .container .working a,
+.bottom-footer .container .support a{
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color: var(--main-green);
+    transition: 0.3s ease-in-out;
+}
+.bottom-footer .container .working a:hover,
+.bottom-footer .container .support a:hover{
+    color: var(--slider-red);
+}
+
+.bottom-footer .container .working p,
+.bottom-footer .container .support p{
+    font-size: 12px;
+}
+
+.bottom-footer .container .follow-us{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+.bottom-footer .container .follow-us .sosial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} 
+.bottom-footer .container .follow-us .sosial span{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color: var(--dark-text-color);
+} 
+.bottom-footer .container .follow-us .sosial div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.bottom-footer .container .follow-us .sosial .fa-brands{
+    color: var(--color-white);
+}
+.bottom-footer .container .follow-us .sosial div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 13px;
+    background-color: var(--main-green);
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+.bottom-footer .container .follow-us .sosial div a:hover{
+    transform: translateY(-5px);
+}
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-footer .container{
+    margin: 0 25px;
+    gap: 50px;
+}
+
+.top-footer .container .info i{
+    padding-right: 5px;
+}
+
+.top-footer .container .info a,
+.top-footer .container .info i{
+    color: var(--main-green);
+    transition: 0.3s ease-in-out;
+}
+
+.top-footer .container .info a:hover{
+    color: var(--slider-red);
+}
+.top-footer .container .info{
+    width: 21%;
+}
+.top-footer .container .install-app{
+    width: 21%;
+}
+.top-footer .container .company,
+.top-footer .container .account,
+.top-footer .container .corporate,
+.top-footer .container .popular{
+    width: calc(58%/4);
+}
+.top-footer .container .info,
+.top-footer .container .company,
+.top-footer .container .account,
+.top-footer .container .corporate,
+.top-footer .container .popular,
+.top-footer .container .install-app{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 25px;
+    font-size: 15px;
+    gap: 10px;
+    padding: 25px 0 50px 0;
+}
+
+
+.top-footer .container .company a:hover,
+.top-footer .container .account a:hover,
+.top-footer .container .corporate a:hover,
+.top-footer .container .popular a:hover{
+    color: var(--main-green);
+}
+
+.top-footer .container h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    padding:20px 0 10px 0;
+    color: var(--dark-text-color);
+}
+.top-footer .container a,
+.top-footer .container p{
+    color: var(--light-text-color);
+    transition: 0.3s ease-in-out;
+
+}
+.top-footer .info p:nth-child(2){
+    padding: 20px 0;
+}
+.top-footer .download-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+    padding: 15px 0;
+}
+.top-footer .install-app a,
+.top-footer .download-app img{
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.top-footer .install-app a:hover,
+.top-footer .download-app img:hover{
+    transform: translateY(-5px);
+}
+
+.top-footer .install-app p:nth-child(4){
+    margin-bottom: 10px;
+}
