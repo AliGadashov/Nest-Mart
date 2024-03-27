@@ -858,7 +858,7 @@
     padding: 20px;
     margin-bottom: 15px;
     width: 80%;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
 }
 .main-container .popular-products .pp-bottom .pp-container .pp-mini-container {
     display: flex;
@@ -940,6 +940,164 @@
     transform: translateY(-5px);
     background-color: var(--light-green);
 }
+
+.main-container .p-column-row{
+    margin: 25px 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+}
+.main-container .p-column-row .pcr-row{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 15px 0;
+}
+
+.main-container .p-column-row .pcr-row .pcr-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+.main-container .p-column-row .pcr-row .pcr-top{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transition: 0.3s ease-in-out;
+}
+
+.main-container .p-column-row .pcr-row .pcr-top h3{
+    width: 90%;
+    margin-left: 30px;
+    padding: 20px 0px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    border-bottom: 2px solid var(--border-color);
+    color: var(--dark-text-color);
+}
+.main-container .p-column-row .pcr-row .pcr-top .uncopleted-line{
+    height: 3px;
+    width: 25%;
+    background-color: var(--main-light-green);
+    transform: translate(20px,-3px);
+}
+.main-container .p-column-row .pcr-row .pcr-bottom{
+    display: flex;
+    align-items: start;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+}
+.main-container .p-column-row .pcr-row .pcr-bottom:hover{
+    transform: translateY(-5px);
+    border-radius: 15px;
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+.main-container .p-column-row .pcr-row .pcr-bottom img{
+    width: 25%;
+    cursor: pointer;
+}
+.main-container .p-column-row .pcr-row .pcr-container .pcrb-content{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.main-container .p-column-row .pcr-row .pcr-container .pcrb-content a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    transition: 0.3s ease-in-out;
+}
+.main-container .p-column-row .pcr-row .pcr-container .pcrb-content a:hover{
+    color: var(--main-green);
+}
+.main-container .p-column-row .pcr-row .pcr-container .pcrb-content .aside-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+}
+.main-container .p-column-row .pcr-row .pcr-container .pcrb-content .aside-price p:last-child{
+    color:var(--light-text-color);
+    text-decoration: line-through;
+}
+.main-container .p-column-row .pcr-row .pcr-container .pcrb-content .aside-price p:first-child{
+    color: var(--main-dark-green);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main-container .recently-added{
+    width: calc(100% - 10px);
+    min-height: 150px;
+    border: 3px dashed var(--border-color);
+    border-radius: 20px;
+}
+
+.main-container .recently-added h3{
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 20px;
+}
+.main-container .recently-added .recently-added-container{
+    padding: 25px;
+}
+
+.main-container .recently-added .recently-added-container .rac-bottom{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    padding-top: 15px;
+}
+.main-container .recently-added .recently-added-container .rac-container .rac-container-inside{
+    display: flex;
+    align-items: start;
+    padding: 10px;
+    gap: 10px;
+    transition: 0.3s ease-in-out;
+}
+.main-container .recently-added .recently-added-container .rac-container{
+    border: 2px dashed var(--border-color);
+    border-radius: 15px;
+}
+.main-container .recently-added .recently-added-container .rac-container:hover .rac-container-inside{
+    transform: translateY(-5px);
+}
+.main-container .recently-added .recently-added-container .rac-container img{
+    width: 25%;
+    cursor: pointer;
+}
+.main-container .recently-added .recently-added-container .rac-container .aside-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+}
+.main-container .recently-added .recently-added-container .rac-container .aside-price p:last-child{
+    color:var(--light-text-color);
+    text-decoration: line-through;
+}
+.main-container .recently-added .recently-added-container .rac-container .aside-price p:first-child{
+    color: var(--main-dark-green);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.main-container .recently-added .recently-added-container .rac-container a{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    transition: 0.3s ease-in-out;
+}
+.main-container .recently-added .recently-added-container .rac-container a:hover{
+    color: var(--main-green);
+}
+
 
 /* box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.1); */
 
